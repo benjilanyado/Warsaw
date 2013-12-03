@@ -79,7 +79,6 @@ body {
 
 .slide2 {
 
-	background: pink
 }
 
 .slide3 {
@@ -178,17 +177,13 @@ body {
 .cover {
 
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	color: white;
 	font-weight: bold
 }
 
 
-
-.cover:hover{
-	background: rgba(255,255,255,0.2)
-}
 
 /*SLIDE 1*/
 
@@ -219,35 +214,50 @@ body {
 #lightbox {
 
 	width: 720px;
-	height: 627px;
+	height: 220px;
 	background: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	display: none
+	margin-top: 408px
 }
 
 #contentholder {
 
 	position: absolute;
-	width: 630px;
-	height: 627px;
+	width: 400px;
+	height: 220px;
 	top: 0px;
 	left: 0px;
+	line-height: 1.2;
+	font-size: 16px;
+	font-family: 'Lusitana', serif;
+	color: white;
+	text-align: left;
+}
+
+#content {
+
+	padding: 10px;
+	padding-top: 20px
+}
+
+#content img {
+
+	margin-top: -10px
 }
 
 #copyholder {
 
 	position: absolute;
-	width: 300px;
-	height: 627px;
+	width: 320px;
+	height: 220px;
 	top: 0px;
 	right: 0px;
 	color: white;
 	text-align: left;
-	padding: 20px;
-	line-height: 1.6;
+	line-height: 1.2;
 	font-size: 16px;
 	font-family: 'Lusitana', serif;
 }
@@ -266,7 +276,7 @@ body {
 #copyheader {
 
 	font-size: 40px;
-	margin: 20px 0px;
+	margin: 10px;
 	font-family: 'Lusitana', serif;
 	line-height: 1;
 }
@@ -275,8 +285,8 @@ body {
 
 	width: 40px;
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	bottom: -35px;
+	right: -15px;
 	margin: 20px;
 }
 
@@ -286,15 +296,34 @@ body {
 	right: 0px;
 }
 
-#content img {
+#copy {
 
-	width: 560px;
+	padding: 10px;
 }
 
-#content {
+#introtowarsaw {
 
-	margin-top: 30px
+	width: 720px;
+	height: 627px;
+	z-index: 500;
+	margin-left: 220px;
 }
+
+.warsawcopy {
+
+	width: 350px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	text-align: left;
+	font-size: 19px;	
+	font-family: 'Lusitana', serif;
+	color: black;
+	margin-bottom: 10px
+}
+
+
+
 
 /*INTRO*/
 
@@ -375,38 +404,127 @@ body {
 
 #cover1 {
 
-	left: 50px;
-	top: 100px;
+	left: 352px;
+	top: 5px;
 }
 
 #cover2 {
 
-	left: 150px;
-	top: 250px;
+	left: 659px;
+	top: 22px;
 
 }
 
 #cover3 {
 
-	left: 250px;
-	top: 100px;
+	left: 348px;
+	top: 152px;
 }
 
 #cover4 {
 
-	left: 350px;
-	top: 100px;
+	left: 394px;
+	top: 162px;
 }
 
 #cover5{
 
-	left: 350px;
-	top: 200px;
+	left: 509px;
+	top: 211px;
+}
+
+#cover6{
+
+	left: 159px;
+	top: 277px;
+}
+
+#cover7{
+
+	left: 261px;
+	top: 235px;
+}
+
+#cover8{
+
+	left: 51px;
+	top: 137px;
+}
+
+#cover9{
+
+	right: 25px;
+	top: 355px;
+}
+
+#cover10 {
+
+	top: 10px;
+	left: 10px
+}
+
+#cover9 img {
+
+	width: 40px;
+	background: #933837;
+	padding: 10px
+
+}
+
+.number.selected {
+
+	background: #60ACF0
+}
+
+#cover9 .numbercopy {
+
+	top: 15px
 }
 
 .number {
 
-	background: red
+	background: #933837;
+	width: 35px;
+	height: 35px;
+	border-radius: 35px;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	text-align: center
+}
+
+.numbercopy {
+
+	position: relative;
+	top: 9px;
+	left: 0px
+}
+
+#slicecliker {
+
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	width: 720px;
+	font-size: 60px;
+	color: white;
+}
+
+#slicecliker img {
+
+	width: 80px;
+	margin-bottom: 20px
+}
+
+.mapplace {
+
+	font-size: 26px;
+	margin-bottom: 16px;
+	width: 250px
+}
+
+.mapplace1, .mapplace2, .mapplace3, .mapplace4 {
+
+	margin-left: 40px;
 }
 
 
