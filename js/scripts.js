@@ -235,6 +235,182 @@ function processPlaceClick(box) {
 
     })
 
+    ///SLIDE 5
+
+
+var names = [
+    {
+        selector: '#who1',
+        selector2: '.mapplace1',
+        headline: 'Simon Tenenbaum',
+        copy: "Simon (Szymon) Tenenbaum was a world respected entomologist, whose insect collection was kept in the zoo during the war for safe keeping. He died in the ghetto in June 1941. After the war his wife, Lonia, donated the collection to the State Zoological Museum of Poland. Simon Tenenbaum is buried in Warsaw’s Jewish cemetery.",
+        address: "",
+        content: '<img src="images/simon.jpg">'
+    },
+
+    {
+        selector: '#who2',
+        headline: 'Jan and Antonina Zabinski',
+        selector2: '.mapplace2',
+        copy: 'Jan Zabinski was the director of the Warsaw Zoo from 1928. He improved it’s facilities and increased the number of animals on display considerably. During the war he and his wife Antonina used the empty animal shelters and the basement of their own villa, to hide about 300 Jews.',
+        content: '<img src="images/zabinski.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who3',
+        headline: 'Shlomo and Otto',
+        selector2: '.mapplace2',
+        copy: 'Shlomo and Otto are fictional characters. Shlomo is an amalgam of many of the characters I have met in books I have read about the time. Otto’s character started off as totally fictional, but the more I read about zoo life before and during the war the more real he seemed to become! ',
+        content: '<img src="images/shlomo.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who4',
+        headline: 'Lutz Heck and Ziegler',
+        selector2: '.mapplace2',
+        copy: 'Lutz  Heck was the director of  Berlin Zoo . Along with his brother Heinz he set out to  recreate an extinct bread of cattle by selectively breeding carefully chosen specimens. With the encouragement and support of Herman Goering, a prominent Nazi, he saught to cleanse the cattle population of Europe in the same way that Hitler was “purifying”  Europe’s humans. ',
+        content: '<img src="images/lutz.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who5',
+        headline: 'Janusz Korczak ',
+        selector2: '.mapplace2',
+        copy: 'Janusz Korczak was the founder and principle of two orphanages in Warsaw. He was a doctor, writer and educator who devoted his life to the welfare and education of children. Although he was offered safe passage out of the ghetto he refused to abandon the orphans in his care and stayed with them all the way to the death camps of Treblinka. His many publications are still widely read throughout the world.',
+        content: '<img src="images/janus.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who6',
+        headline: 'Stefan Zabinski & Marcus Tenenbaum',
+        selector2: '.mapplace2',
+        copy: 'Stefan Zabinski and Marcus Tenenbaum are fictional characters. The Zabinskis real son was Ryszard who was four at the beginning of the war. For the story in my book to work Stefan had to be twelve. The Tenenbaums had a daughter Irena – I created Marcus, a twelve year old Jewish boy, to be Stefan’s friend. Although fictitious, this friendship symbolises the historical bond between Jews and non-Jews in Poland and is the central relationship in the book',
+        content: '<img src="images/boys.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who7',
+        headline: ' Wladyslaw Szpilman ',
+        selector2: '.mapplace2',
+        copy: 'Before the war Wladyslaw Spilman was a renowned Polish pianist who  regularly performed on national radio.  When the ghetto was established he continued to entertain people in cafés and restaurants and, after the war, was the only surviving member of his family. His war time experiences  were chronicled in his book “The Pianist” which was made into  a successful film in 2002.',
+        content: '<img src="images/spilman.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who8',
+        headline: 'Adolf Hitler',
+        selector2: '.mapplace2',
+        copy: 'German Chancellor from 1933-45 and leader of the National Socialist German Workers, or NAZI , Party.',
+        content: '<img src="images/adolf.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who10',
+        headline: 'Reinhard Heydrich',
+        selector2: '.mapplace2',
+        copy: 'Leading NAZI and eventual head of the Gestapo (Hitler’s special police force) and is generally considered to be the mastermind behind the “Final Solution” to annihilate Europe’s Jews.',
+        content: '<img src="images/heyd.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who9',
+        headline: 'Warsaw Zoo',
+        selector2: '.mapplace2',
+        copy: 'In pre-war Warsaw the zoo was one the largest in Europe and the city’s most popular visitor attraction. Although it was almost completely destroyed during the war, it was rebuilt and is now even more popular.',
+        content: '<img src="images/zoo.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who11',
+        headline: 'Hans Frank',
+        selector2: '.mapplace2',
+        copy: 'Governor General of Occupied Poland ',
+        content: '<img src="images/frank.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who12',
+        headline: 'Friedrich Krüger',
+        selector2: '.mapplace2',
+        copy: 'Police Leader in the General Government of Occupied Poland ',
+        content: '<img src="images/kruger.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who13',
+        headline: 'Heinrich Himmler',
+        selector2: '.mapplace2',
+        copy: 'Appointed head of the SS in 1929 and was responsible for organising and implementing the NAZI policy of genocide based on racial purity.',
+        content: '<img src="images/himmler.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who14',
+        headline: 'Kasia and Tuzinka',
+        selector2: '.mapplace2',
+        copy: 'Kasia, one of the Zoo’s African elephants, gave birth to Tuzinka in April 1937. At that time she was only the twelfth elephant ever to be born in captivity – hence her name (tuzin is Polish for dozen).',
+        content: '<img src="images/elephants.jpg">',
+        address: ''
+    }
+
+   ]
+
+    function processPlaceClickNames(name) {
+
+    $("#buttons").fadeOut();
+    $(".dayofweek").fadeOut();
+    $("#tooltip1").fadeOut();
+    $("#lightbox1").fadeIn(function(event){      
+      $("#content1").html(name.content);
+      $("#copyheader1").html(name.headline)
+      $("#copy1").html(name.copy)
+      $("#address").html(name.address)
+    });
+
+ }
+
+ $.each(names, function(i, name) {
+        $(name.selector).on('click', function(e){
+            e.preventDefault();
+            processPlaceClickNames(name);
+            $(".who").removeClass("selectedname")
+            $(name.selector).addClass("selectedname")
+        });
+    });
+
+
+  $("#close").click(function(event) {        
+
+    event.preventDefault();
+
+
+    $("#lightbox1").fadeOut(function(event){
+       $("#buttons").fadeIn();
+      $("#content").html('');
+      $("#copyheader").html('');
+      $("#copy").html('');
+      $("#address").html('')
+       $(".dayofweek").fadeIn();
+
+
+    })
+  });
+
+
+
+
 
 
 

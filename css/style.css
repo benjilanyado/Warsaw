@@ -66,7 +66,7 @@ body {
 #internalwrapper {
 
 	position: relative;
-	left: -2820px;
+	left: -2880px;
 	width: 6580px;
 	height: 627px;
 	margin-left: 220px
@@ -90,12 +90,12 @@ body {
 
 .slide3 {
 
-	background: blue
+	
 }
 
 .slide4 {
 
-	background: yellow
+	
 }
 
 .slide5 {
@@ -215,7 +215,7 @@ body {
 	background: grey
 }
 
-#lightbox {
+#lightbox, #lightbox1 {
 
 	width: 720px;
 	height: 220px;
@@ -227,7 +227,7 @@ body {
 	margin-top: 408px
 }
 
-#contentholder {
+#contentholder, #contentholder1 {
 
 	position: absolute;
 	width: 400px;
@@ -561,6 +561,199 @@ body {
 	font-family: 'Lusitana', serif;
 
 }
+
+/*SLIDE 5*/
+
+.who {
+
+	position: absolute;;
+	width: 100px;
+	height: 120px
+}
+
+#who1 {
+
+	top: 15px;
+	left: 53px;
+	width: 200px;
+	height: 128px;
+}
+
+#who2 {
+
+	top: 159px;
+	left: 57px;
+	width: 200px;
+	height: 100px;
+}
+
+#who3 {
+
+	top: 272px;
+	left: 24px;
+	width: 100px;
+	height: 130px;
+}
+
+#who4 {
+
+	top: 310px;
+	left: 148px;
+	width: 62px;
+	height: 90px;
+}
+
+#who5 {
+
+	top: 318px;
+	left: 242px;
+	width: 62px;
+	height: 75px;
+}
+
+#who6 {
+
+	top: 318px;
+	left: 335px;
+	width: 102px;
+	height: 76px;
+}
+
+#who6 {
+
+	top: 121px;
+	left: 290px;
+	width: 150px;
+	height: 185px;
+}
+
+#who7 {
+
+	top: 4px;
+	left: 311px;
+	width: 150px;
+	height: 107px
+}
+
+#who8 {
+
+	top: 4px;
+	left: 490px;
+	width: 101px;
+	height: 115px;
+}
+
+#who10 {
+
+	top: 54px;
+	left: 603px;
+	width: 101px;
+	height: 142px;
+}
+
+#who11 {
+
+	top: 131px;
+	left: 486px;
+	width: 101px;
+	height: 103px;
+}
+
+#who12 {
+
+	top: 241px;
+	left: 472px;
+	width: 101px;
+	height: 159px;
+}
+
+#who13 {
+
+	top: 245px;
+	left: 593px;
+	width: 101px;
+	height: 136px;
+}
+
+#who14 {
+
+	top: 318px;
+	left: 336px;
+	width: 100px;
+	height: 75px;
+}
+
+.who:hover, .selectedname {
+
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,0.2);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+}
+
+#content1 {
+
+	width: 200px;
+	height: 219px;
+}
+
+#content1 img {
+
+	width: 180px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px
+}
+
+.copyholder1 {
+
+	position: absolute;
+	width: 320px;
+	height: 220px;
+	top: 0px;
+	right: 0px;
+	color: white;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 16px;
+	font-family: 'Lusitana', serif;
+}
+
+#contentholder1 {
+
+	width: 200px
+}
+
+#copyholder1 {
+
+	width: 500px;
+	position: absolute;
+	left: 220px;
+	height: 220px;	
+	font-family: 'Lusitana', serif;
+	color: white
+}
+
+#copyheader1 {
+
+	text-align: left;
+	font-size: 24px;
+	margin: 10px 10px 10px 0px;
+}
+
+#copy1 {
+
+	text-align: left;
+	font-size: 16px;
+	margin: 10px 10px 10px 0px;
+}
+
+#whoswhoholder {
+padding-top: 60px;
+font-size: 25px;
+
+}
+
 
 
 
