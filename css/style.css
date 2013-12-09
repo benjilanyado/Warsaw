@@ -49,6 +49,12 @@ body {
 	border-bottom: none;
 }
 
+.linkselected {
+
+	color: #60ACF0;
+	text-decoration: underline
+}
+
 #controls {
 
 	position: absolute;
@@ -62,12 +68,13 @@ body {
 	position: relative;
 	left: -2820px;
 	width: 6580px;
-	height: 627px
+	height: 627px;
+	margin-left: 220px
 }
 
 .slide {
 
-	width: 940px;
+	width: 720px;
 	height: 627px;
 	display: block;
 	float: left;
@@ -112,7 +119,7 @@ body {
 
 	position: absolute;
 	top: 0px;
-	width: 940px;
+	width: 720px;
 }
 
 
@@ -303,7 +310,6 @@ body {
 	width: 720px;
 	height: 627px;
 	z-index: 500;
-	margin-left: 220px;
 }
 
 .warsawcopy {
@@ -395,7 +401,6 @@ body {
 
 	width: 720px;
 	height: 627px;
-	left: 220px;
 	position: relative;
 }
 
@@ -527,12 +532,12 @@ body {
 
 /*SLIDE 4*/
 
-.buttons {
+.buttons1 {
 
 	position: absolute;
 	width: 50px;
 	height: 627px;
-	left: 3710px;
+	left: 2830px;
 	z-index: 1;
 }
 

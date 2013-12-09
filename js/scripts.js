@@ -2,30 +2,44 @@ $(document).ready(function(){
 
 
   $(".link1").click(function(event) { 
-  	$("#internalwrapper").animate({"left": "-940px"}, 1000)
+  	$("#internalwrapper").animate({"left": "-720px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
 
   $(".link2").click(function(event) { 
-  	$("#internalwrapper").animate({"left": "-1880px"}, 1000)
+  	$("#internalwrapper").animate({"left": "-1440px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
 
   $(".link3").click(function(event) { 
-  	$("#internalwrapper").animate({"left": "-2820px"}, 1000)
+  	$("#internalwrapper").animate({"left": "-2160px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
 
   $(".link4").click(function(event) { 
-  	$("#internalwrapper").animate({"left": "-3760px"}, 1000)
+  	$("#internalwrapper").animate({"left": "-2880px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
 
   $(".link5").click(function(event) { 
-  	$("#internalwrapper").animate({"left": "-4700px"}, 1000)
+  	$("#internalwrapper").animate({"left": "-3600px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
 
   $(".link6").click(function(event) { 
-  	$("#internalwrapper").animate({"left": "-5640px"}, 1000)
+  	$("#internalwrapper").animate({"left": "-4320px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
   $(".link7").click(function(event) { 
   	$("#internalwrapper").animate({"left": "0px"}, 1000)
+    $(".clicker").removeClass("linkselected")
+    $(this).addClass("linkselected")
   });
 
 
