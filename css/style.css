@@ -66,7 +66,7 @@ body {
 #internalwrapper {
 
 	position: relative;
-	left: -2880px;
+	left: 0px;
 	width: 6580px;
 	height: 627px;
 	margin-left: 220px
@@ -78,34 +78,6 @@ body {
 	height: 627px;
 	display: block;
 	float: left;
-}
-
-.slide1 {
-
-}
-
-.slide2 {
-
-}
-
-.slide3 {
-
-	
-}
-
-.slide4 {
-
-	
-}
-
-.slide5 {
-
-	background: orange
-}
-
-.slide6 {
-
-	background: grey
 }
 
 .padding {
@@ -532,13 +504,17 @@ body {
 
 /*SLIDE 4*/
 
-.buttons1 {
+.buttons {
 
 	position: absolute;
 	width: 50px;
 	height: 627px;
-	left: 2830px;
 	z-index: 1;
+}
+
+.buttons1 {
+
+	left: 2830px;
 }
 
 .leftpics {
@@ -753,6 +729,160 @@ padding-top: 60px;
 font-size: 25px;
 
 }
+
+
+/*SLIDE 5*/
+
+.buttons5 {
+
+	left: 4270px
+}
+
+.leftpics5 {
+
+	width: 720px;
+	height: 627px;
+	background: red
+}
+
+.backtotop5 {
+
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.buttons5 a {
+
+	color: white
+}
+
+.overcopy {
+
+	position: relative;
+	bottom: 200px;
+	left: 10px;
+	color: white;
+	font-family: 'Lusitana', serif;
+	font-size: 20px;
+	width: 300px;
+	text-align: left;
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.overcopy1 {
+
+	font-size: 50px;
+	bottom: 600px;
+	left: 375px;
+	width: 283px;
+}
+
+.overcopy2 {
+
+	width: 390px;
+	bottom: 183px;
+}
+
+.overcopy3 {
+
+	bottom: 152px;
+	left: 20px;
+}
+
+.overcopy4 {
+
+	bottom: 180px
+}
+
+.overcopy5 {
+
+	width: 400px;
+	bottom: 230px;
+}
+
+.overcopy6 {
+
+	width: 600px;
+	bottom: 149px;
+}
+
+.overcopy9 {
+
+	bottom: 230px
+}
+
+.overcopy11 {
+
+	width: 600px;
+	bottom: 624px;
+	font-size: 18px;
+}
+
+.overcopy13 {
+
+	width: 500px
+}
+
+.overcopy7 {
+
+	left: 360px;
+	bottom: 280px
+}
+
+/*SLIDE 6*/
+
+.leftpics6 {
+
+	height: 627px;
+	width: 250px;
+	background: red;
+	float: left
+}
+
+.rightcopy6 {
+
+	width: 470px;
+	height: 627px;
+	float: right;
+}
+
+.buttons6 {
+
+	left: 4990px
+}
+
+.rightcopy6copy {
+
+	width: 390px;
+	padding: 10px;
+	text-align: left;
+	color: black;
+	font-family: 'Lusitana', serif;
+	font-size: 18px
+}
+
+.copyheader6 {
+
+	font-size: 27px
+}
+
+.copycopy2 {
+
+	margin-top: 86px
+}
+
+
+.copycopy3 {
+
+	margin-top: 150px
+}
+
+
+
+
+
+
 
 
 

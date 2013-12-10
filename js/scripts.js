@@ -96,9 +96,10 @@ $(".upbutton1").click(function(event) {
 $(".backtotop1").click(function(event) {   	
 	event.preventDefault();
 	$(".verticalslidewrapper1").animate({"top": "0px"}, 1000)
-	lightboxCurrent2 = 0;
+	lightboxCurrent1 = 0;
 	$(".downbutton1").fadeIn()
 	$(".backtotop1").fadeOut()
+    $(".upbutton1").fadeOut()
 });
 
 ////SLIDE2 ///
@@ -409,9 +410,96 @@ var names = [
   });
 
 
+// SLIDE5 /////
 
 
 
+var verticalimages5 = [ "0px", "-627px", "-1254px", "-1881px", "-2508px", "-3135px", "-3762px", "-4389px", "-5016px", "-5643px", "-6265px", "-6892px", "-7519px"];
+var lightboxCurrent5 = 0;
+function downclick5() {
+    lightboxCurrent5 += 1
+    $(".verticalslidewrapper5").animate({"top": verticalimages5[lightboxCurrent5]}, 1000)
+    $(".upbutton5").fadeIn()
+    $(".backtotop5").fadeIn()
+    if (lightboxCurrent5==(verticalimages5.length - 1)) {
+        $(".downbutton5").fadeOut()
+        $(".upbutton5").fadeIn()
+    }
+}
+
+function upclick5() {
+    lightboxCurrent5 -= 1
+    $(".verticalslidewrapper5").animate({"top": verticalimages5[lightboxCurrent5]}, 1000)
+    $(".downbutton5").fadeIn()
+    if (lightboxCurrent5==(verticalimages5.length - 13)) {  //NB  "-5" needs to be whatever length of array is
+        $(".upbutton5").fadeOut()
+        $(".backtotop5").fadeOut()
+    }
+}
+
+$(".downbutton5").click(function(event) {      
+    event.preventDefault();
+    downclick5()
+});
+
+$(".upbutton5").click(function(event) {     
+    event.preventDefault();
+    upclick5()
+});
+
+$(".backtotop5").click(function(event) {    
+    event.preventDefault();
+    $(".verticalslidewrapper5").animate({"top": "0px"}, 1000)
+    lightboxCurrent5 = 0;
+    $(".downbutton5").fadeIn()
+    $(".backtotop5").fadeOut()
+    $(".upbutton5").fadeOut()
+});
+
+
+// SLIDE 6
+
+var verticalimages6 = [ "0px", "-627px", "-1254px", "-1881px", "-2508px"];
+var lightboxCurrent6 = 0;
+function downclick6() {
+    lightboxCurrent6 += 1
+    $(".verticalslidewrapper6").animate({"top": verticalimages6[lightboxCurrent6]}, 1000)
+    $(".upbutton6").fadeIn()
+    $(".backtotop6").fadeIn()
+    if (lightboxCurrent6==(verticalimages6.length - 1)) {
+        $(".downbutton6").fadeOut()
+        $(".upbutton6").fadeIn()
+    }
+}
+
+function upclick6() {
+    lightboxCurrent6 -= 1
+    $(".verticalslidewrapper6").animate({"top": verticalimages6[lightboxCurrent6]}, 1000)
+    $(".downbutton6").fadeIn()
+    if (lightboxCurrent6==(verticalimages6.length - 5)) {  //NB  "-5" needs to be whatever length of array is
+        $(".upbutton6").fadeOut()
+        $(".backtotop6").fadeOut()
+    }
+}
+
+$(".downbutton6").click(function(event) {      
+    event.preventDefault();
+    downclick6()
+});
+
+$(".upbutton6").click(function(event) {     
+    event.preventDefault();
+    upclick6()
+});
+
+$(".backtotop6").click(function(event) {    
+    event.preventDefault();
+    $(".verticalslidewrapper6").animate({"top": "0px"}, 1000)
+    lightboxCurrent6 = 0;
+    $(".downbutton6").fadeIn()
+    $(".backtotop6").fadeOut()
+    $(".upbutton6").fadeOut()
+});
 
 
 
