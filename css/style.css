@@ -16,7 +16,7 @@ body {
 	overflow: hidden;
 	text-align: center;
 	margin: auto;
-	margin-top: 5%;
+	margin-top: 2%;
 	margin-bottom: 5%;
 	border: 7px solid black
 }
@@ -66,7 +66,7 @@ body {
 #internalwrapper {
 
 	position: relative;
-	left: 0px;
+	left: -2880px;
 	width: 6580px;
 	height: 627px;
 	margin-left: 220px
@@ -286,7 +286,7 @@ body {
 
 .warsawcopy {
 
-	width: 350px;
+	width: 345px;
 	margin-left: 10px;
 	margin-top: 10px;
 	float: left;
@@ -316,9 +316,9 @@ body {
 #fromtheauthor {
 
 	position: absolute;
-	width: 450px;
-	height: 430px;
-	bottom: 50px;
+	width: 460px;
+	height: 600px;
+	bottom: 20px;
 	right: 10px;
 	text-align: left;
 	overflow: hidden;	
@@ -327,9 +327,8 @@ body {
 
 .copyhider {
 	position: absolute;
-	width: 900px;	
+	width: 1410px;	
 	overflow: hidden;
-	height: 400px;
 	left: 0px
 }
 
@@ -337,9 +336,8 @@ body {
 
 	width: 430px;
 	float: left;
-	height: 400px;
 	font-family: 'Lusitana', serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	font-weight: bold;
 	padding: 10px;
@@ -378,8 +376,8 @@ body {
 
 #cover1 {
 
-	left: 352px;
-	top: 5px;
+	left: 363px;
+	top: 7px;
 }
 
 #cover2 {
@@ -437,12 +435,24 @@ body {
 	left: 10px
 }
 
+#cover10 img {
+
+	width: 20px;
+	margin-bottom: 5px
+}
+
 #cover9 img {
 
 	width: 40px;
 	background: #933837;
 	padding: 10px
+}
 
+#warsawghetto {
+
+	top: 140px;
+	left: 200px;
+	font-size: 23px
 }
 
 .number.selected {
@@ -491,7 +501,7 @@ body {
 
 .mapplace {
 
-	font-size: 26px;
+	font-size: 23px;
 	margin-bottom: 16px;
 	width: 250px
 }

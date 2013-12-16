@@ -149,7 +149,7 @@ var boxs = [
     {
         selector: '.number6',
         selector2: '.mapplace6',
-        headline: 'Korczak Orphanage',
+        headline: 'The Korczak Orphanage',
         copy: 'Janusz Korczak helped to design the building  that housed his Jewish orphanage. It thrived there from 1912 to 1940 when it was forced to move within the ghetto walls. ',
         content: '<img src="images/orphan1.jpg">',
         address: ''
@@ -157,8 +157,8 @@ var boxs = [
     {
         selector: '.number7',
         selector2: '.mapplace7',
-        headline: 'Ghetto Orphanage',
-        copy: 'In 1940 Korczak was forced to relocate his orphanage to 33 Chlodna Street. There are no surviving images of the building but it was located very close to the wooden footbridge that was built to connect the “small” and “large” sections of the  ghetto in January 1942.',
+        headline: "Korczak's Ghetto Orphanage",
+        copy: 'In 1940 Korczak’s orphanage relocated inside the ghetto to 33 Chlodna Street, close to where the footbridge connecting the “small” and “large” sections of the ghetto was eventually built, in 1942.',
         content: '<img src="images/orphan2.jpg">',
         address: ''
     },
@@ -166,7 +166,7 @@ var boxs = [
         selector: '.number8',
         selector2: '.mapplace8',
         headline: 'Jewish Cemetery',
-        copy: 'The Jewish Cemetery on Okopowa Street opened in 1806 and has over 200,000 marked graves. There is a memorial to Janusz Korczak and the vast number of child victims. Simon Tenenbaum (Marcus’ father in STARS) is buried there; I was honoured to be able to pay my respects at his graveside.',
+        copy: 'The Jewish Cemetery opened in 1806 and has over 200,000 marked graves. There is a memorial to Janusz Korczak and the vast number of children who died in the ghetto. Simon Tenenbaum (Marcus’ father in STARS) is buried there and the author was honoured to pay his respects at the graveside.',
         content: '<img src="images/grave.jpg">',
         address: ''
     },
@@ -269,9 +269,9 @@ var names = [
 
     {
         selector: '#who4',
-        headline: 'Lutz Heck and Ziegler',
+        headline: 'Lutz Heck',
         selector2: '.mapplace2',
-        copy: 'Lutz  Heck was the director of  Berlin Zoo . Along with his brother Heinz he set out to  recreate an extinct bread of cattle by selectively breeding carefully chosen specimens. With the encouragement and support of Herman Goering, a prominent Nazi, he saught to cleanse the cattle population of Europe in the same way that Hitler was “purifying”  Europe’s humans. ',
+        copy: "Lutz Heck was the director of Berlin Zoo. Along with his brother Heinz he set out to recreate an extinct variety of cattle by selectively breeding carefully chosen specimens. With the encouragement and support of Herman Goering, a prominent Nazi, he sought to “cleanse” Europe's cattle population in the same way that Hitler was “purifying” Europe’s humans.",
         content: '<img src="images/lutz.jpg">',
         address: ''
     },
@@ -280,7 +280,7 @@ var names = [
         selector: '#who5',
         headline: 'Janusz Korczak ',
         selector2: '.mapplace2',
-        copy: 'Janusz Korczak was the founder and principle of two orphanages in Warsaw. He was a doctor, writer and educator who devoted his life to the welfare and education of children. Although he was offered safe passage out of the ghetto he refused to abandon the orphans in his care and stayed with them all the way to the death camps of Treblinka. His many publications are still widely read throughout the world.',
+        copy: 'Janusz Korczak was the founder and principal of two orphanages in Warsaw. He was a doctor, writer and educator who devoted his life to the welfare and education of children. Although he was offered safe passage out of the ghetto he refused to abandon the orphans in his care and stayed with them all the way to the death camps of Treblinka. His many publications are still widely read throughout the world.',
         content: '<img src="images/janus.jpg">',
         address: ''
     },
@@ -289,7 +289,7 @@ var names = [
         selector: '#who6',
         headline: 'Stefan Zabinski & Marcus Tenenbaum',
         selector2: '.mapplace2',
-        copy: 'Stefan Zabinski and Marcus Tenenbaum are fictional characters. The Zabinskis real son was Ryszard who was four at the beginning of the war. For the story in my book to work Stefan had to be twelve. The Tenenbaums had a daughter Irena – I created Marcus, a twelve year old Jewish boy, to be Stefan’s friend. Although fictitious, this friendship symbolises the historical bond between Jews and non-Jews in Poland and is the central relationship in the book',
+        copy: 'Stefan Zabinski and Marcus Tenenbaum are fictional characters. The Zabinskis real son was Ryszard who was four at the beginning of the war. From the author – “For the story in my book to work the boys had to be twelve. Although fictitious, this friendship symbolises the historical bond between Jews and non-Jews in Poland and is the central relationship in the book.”',
         content: '<img src="images/boys.jpg">',
         address: ''
     },
@@ -316,7 +316,7 @@ var names = [
         selector: '#who10',
         headline: 'Reinhard Heydrich',
         selector2: '.mapplace2',
-        copy: 'Leading NAZI and eventual head of the Gestapo (Hitler’s special police force) and is generally considered to be the mastermind behind the “Final Solution” to annihilate Europe’s Jews.',
+        copy: 'A leading Nazi and eventual head of the Gestapo (Hitler’s special police force) and is generally considered to be the mastermind behind the “Final Solution” to annihilate Europe’s Jews.',
         content: '<img src="images/heyd.jpg">',
         address: ''
     },
@@ -361,7 +361,7 @@ var names = [
         selector: '#who14',
         headline: 'Kasia and Tuzinka',
         selector2: '.mapplace2',
-        copy: 'Kasia, one of the Zoo’s African elephants, gave birth to Tuzinka in April 1937. At that time she was only the twelfth elephant ever to be born in captivity – hence her name (tuzin is Polish for dozen).',
+        copy: 'Kasia, one of the zoo’s African elephants, gave birth to Tuzinka in April 1937. At that time she was only the twelfth elephant ever to be born in captivity – hence her name (tuzin is Polish for dozen).',
         content: '<img src="images/elephants.jpg">',
         address: ''
     }
