@@ -260,9 +260,9 @@ var names = [
 
     {
         selector: '#who3',
-        headline: 'Shlomo and Otto',
+        headline: 'Shlomo',
         selector2: '.mapplace2',
-        copy: 'Shlomo and Otto are fictional characters. Shlomo is an amalgam of many of the characters I have met in books I have read about the time. Otto’s character started off as totally fictional, but the more I read about zoo life before and during the war the more real he seemed to become! ',
+        copy: 'From the author: “Shlomo is an amalgam of many of the characters I have read about in books about the time   "',
         content: '<img src="images/shlomo.jpg">',
         address: ''
     },
@@ -363,6 +363,15 @@ var names = [
         selector2: '.mapplace2',
         copy: 'Kasia, one of the zoo’s African elephants, gave birth to Tuzinka in April 1937. At that time she was only the twelfth elephant ever to be born in captivity – hence her name (tuzin is Polish for dozen).',
         content: '<img src="images/elephants.jpg">',
+        address: ''
+    },
+
+    {
+        selector: '#who15',
+        headline: 'Otto',
+        selector2: '.mapplace2',
+        copy: 'From the author: “Otto’s character is fictional, but the more I read about zoo life before and during the war the more real he seemed to become!”',
+        content: '<img src="images/otto.jpg">',
         address: ''
     }
 
